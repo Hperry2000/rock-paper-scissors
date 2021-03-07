@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    background-image: 
+    linear-gradient(90deg, transparent 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    
+}
+
+header {
+    background-color:  #fff;
+    padding: 20px;
+}
+
+header > h1 {
+    color: black;
+    text-align: center;
+    font-family: Stick, sans-serif;
+    font-size: 45px;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 5px solid #537e9b;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family: Anton, sans-serif;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.label {
+    background-color:  #bd3b3b;
+    color:  white;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+
+#user-label {
+    position: absolute;
+    top: 40px;
+    left: -30px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 40px;
+    right: -30px;
+}
+
+.result {
+    font-size: 40px;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.choices {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.btn {
+    padding: 15px 15px;
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    font-family: Stick, sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px gray;
+    cursor: pointer;
+}
+
+.choice {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#action-message {
+    text-align: center;
+    padding-top: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
